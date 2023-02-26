@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
                 if (allGranted) {
                     call()
                     Log.d(TAG, "allGranted")
+                    Log.d(TAG, "allGranted~~~~~~~~~~~~~~~")
                 } else {
                     Toast.makeText(this, "You Denied $deniedList", Toast.LENGTH_SHORT).show()
                     Log.d(TAG, "Denied")
